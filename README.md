@@ -1,5 +1,7 @@
 # adote-um-pet
 
+Nome provisório: Adote um pet
+
 ## Objetivo
 
 Uma plataforma para que pessoas que querem adotar um animal possa encontrar pets disponíveis para adoção responsável.
