@@ -1,0 +1,26 @@
+//variáveis
+  $tomato-red: #EB2F06;
+  $carrot-orange: #fa983a;
+  $background: #E5E5E5;
+  $background-box: #EFEFEF;
+
+//imports
+@import 'reset';
+@import 'login';
+
+body{
+  background: $background no-repeat;
+  font-family: 'Poppins', sans-serif;
+
+  @media (max-width: 1080px){
+    font-size: 93.75%;
+  }
+
+  @media (max-width: 720px){
+    font-size: 87.5%;
+  }
+
+  @media (max-width: 540px){
+    font-size: 75%;
+  }
+}

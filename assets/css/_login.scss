@@ -1,0 +1,8 @@
+.login{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  .ilustration{
+    height: 100vh;
+    background: url('../img/bg-login.png') no-repeat;
+  }
+}
