@@ -8,16 +8,18 @@
   .form{
     .form-login{
       margin: 5rem auto;
-      width: 40%;
-      height: 560px;
+      width: 50%;
+      height: 480px;
       padding: 3rem 2rem;
       background: $background-box;
       border-radius: .625rem;
-
+      img{
+        margin-bottom: 3rem;
+      }
       .input{
         margin: 1rem 0;
         display: grid;
-        gap: 0.3rem 0;
+        gap: 0.7rem 0;
         input{
           padding: 0.8rem;
           border: none;
@@ -41,7 +43,8 @@
 
       small{
         display: block;
-        width: 80%;
+        width: 70%;
+        line-height: 1.5rem;
         strong{
           color: $carrot-orange;
           font-weight: 700;
