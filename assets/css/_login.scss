@@ -1,8 +1,53 @@
-.login{
+.page-login{
   display: grid;
   grid-template-columns: 1fr 1fr;
   .ilustration{
     height: 100vh;
     background: url('../img/bg-login.png') no-repeat;
   }
+  .form{
+    .form-login{
+      margin: 5rem auto;
+      width: 40%;
+      height: 560px;
+      padding: 3rem 2rem;
+      background: $background-box;
+      border-radius: .625rem;
+
+      .input{
+        margin: 1rem 0;
+        display: grid;
+        gap: 0.3rem 0;
+        input{
+          padding: 0.8rem;
+          border: none;
+          background: #e5e5e5;
+          outline: none;
+          border-radius: .375rem;
+        }
+      }
+      button{
+        display: block;
+        height: 44px;
+        width: 180px;
+        background: $tomato-red;
+        border: none;
+        color: #ffffff;
+        border-radius: .375rem;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      small{
+        display: block;
+        width: 80%;
+        strong{
+          color: $carrot-orange;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
 }
